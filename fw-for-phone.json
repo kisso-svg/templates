@@ -46,7 +46,7 @@
     { "tag": "🇸🇬 新加坡", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["新加坡"] }] },
     { "tag": "🇯🇵 日本", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["日本"] }] },
     { "tag": "🇨🇳 台湾", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["台湾"] }] },
-    { "tag": "🏳️‍🌈 其他节点", "type": "selector", "outbounds": ["{all}"],  "filter": [{ "action": "exclude", "keywords": ["港|新加坡|日本|台湾|Udp"] }]},
+    { "tag": "🏳️‍🌈 其他节点", "type": "selector", "outbounds": ["{all}"],  "filter": [{ "action": "exclude", "keywords": ["港|新加坡|日本|台湾"] }]},
     { "tag": "🎯 全球直连", "type": "direct" }
   ],
   
