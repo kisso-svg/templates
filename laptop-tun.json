@@ -40,6 +40,21 @@
   
   "inbounds": [
     {
+      "type": "tun",
+      "address": "172.19.0.1/30",
+      "mtu": 9000,
+      "auto_route": true,
+      "strict_route": true,
+      "stack": "mixed",
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 20808
+        }
+      }
+    },
+    {
       "type": "mixed",
       "tag": "in",
       "listen": "127.0.0.1",
@@ -65,6 +80,8 @@
     "auto_detect_interface": true,
     "final": "🚀 节点选择",
     "rules": [
+      { "action": "sniff"},
+      { "protocol": "dns", "action": "hijack-dns"},
       { "clash_mode": "Direct", "outbound": "🎯 全球直连"},
       { "clash_mode": "Global", "outbound": "🚀 节点选择"},
       { "rule_set": "geosite-private", "outbound": "🎯 全球直连" },
