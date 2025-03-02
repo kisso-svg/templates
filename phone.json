@@ -19,7 +19,7 @@
   "dns": {
     "servers": [
       {"tag": "dns_direct", "type": "local"},
-      {"tag": "dns_proxy", "type": "https", "server": "8.8.8.8", "detour": "🚀 节点选择"}
+      {"tag": "dns_proxy", "type": "https", "server": "1.1.1.1", "detour": "🚀 节点选择"}
     ],
     "rules": [
       {"clash_mode": "Direct", "server": "dns_direct"},
