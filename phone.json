@@ -55,10 +55,7 @@
   ],
 
   "outbounds": [
-    { "tag": "🚀 节点选择", "type": "selector", "outbounds": ["🇭🇰 香港", "🇸🇬 新加坡", "🇯🇵 日本"] },
-    { "tag": "🇭🇰 香港", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["香港"] }] },
-    { "tag": "🇸🇬 新加坡", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["新加坡"] }] },
-    { "tag": "🇯🇵 日本", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["日本"] }] }
+    { "tag": "🚀 节点选择", "type": "selector",  "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["香港|新加坡|日本"] }] }
   ],
   
   "route": {
