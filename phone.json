@@ -55,14 +55,10 @@
   ],
 
   "outbounds": [
-    { "tag": "🚀 节点选择", "type": "selector", "outbounds": ["🇭🇰 香港", "🇸🇬 新加坡", "🇯🇵 日本", "🇨🇳 台湾", "🇺🇸 美国", "🏳️‍🌈 其他节点"] },
-    { "tag": "🇭🇰 香港", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["港"] }] },
+    { "tag": "🚀 节点选择", "type": "selector", "outbounds": ["🇭🇰 香港", "🇸🇬 新加坡", "🇯🇵 日本"] },
+    { "tag": "🇭🇰 香港", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["香港"] }] },
     { "tag": "🇸🇬 新加坡", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["新加坡"] }] },
-    { "tag": "🇯🇵 日本", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["日本"] }] },
-    { "tag": "🇨🇳 台湾", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["台湾"] }] },
-    { "tag": "🇺🇸 美国", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["美国"] }] },
-    { "tag": "🏳️‍🌈 其他节点", "type": "selector", "outbounds": ["{all}"],  "filter": [{ "action": "exclude", "keywords": ["港|新加坡|日本|台湾|美国"] }]},
-    { "tag": "🎯 全球直连", "type": "direct" }
+    { "tag": "🇯🇵 日本", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["日本"] }] }
   ],
   
   "route": {
