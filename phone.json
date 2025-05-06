@@ -55,7 +55,7 @@
   ],
 
   "outbounds": [
-    { "tag": "🚀 节点选择", "type": "selector",  "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["香港|新加坡|日本"] }] },
+    { "tag": "🚀 节点选择", "type": "selector",  "outbounds": ["{all}"]},
     { "tag": "🎯 全球直连", "type": "direct"}
   ],
   
