@@ -18,7 +18,7 @@
 
   "dns": {
     "servers": [
-      {"tag": "dns_direct", "type": "direct"},
+      {"tag": "dns_direct", "type": "local"},
       {"tag": "dns_server_resolver", "type": "tls", "server": "223.5.5.5"},
       {"tag": "dns_proxy", "type": "https", "server": "1.1.1.1", "detour": "🚀 节点选择"}
     ],
