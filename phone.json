@@ -56,7 +56,7 @@
   ],
 
   "outbounds": [
-    { "tag": "🚀 节点选择", "type": "selector",  "outbounds": ["{all}"]},
+    { "tag": "🚀 节点选择", "type": "selector",  "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["新加坡"] }]},
     { "tag": "🎯 全球直连", "type": "direct"}
   ],
   
